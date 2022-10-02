@@ -7,7 +7,8 @@ import (
 	"github.com/xXNurioXx/go-gta-sa-driver/math"
 )
 
-func (driver *Driver) DriveToPos(destination math.Location) {
+func (driver *Driver) DriveToPos(x, y float64) {
+	destination := math.Location{X: x, Y: y}
 	fmt.Printf("Driving to %f, %f...\n", destination.X, destination.Y)
 
 	for driver.getDistanceTo(destination) >= 5 {
