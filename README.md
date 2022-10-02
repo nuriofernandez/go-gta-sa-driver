@@ -24,7 +24,7 @@ func main() {
 
 ## Video demonstration
 
-<img src="https://i.imgur.com/3qYsubs.gif" alt="Car driving thru checkpoints" width="100%"/>
+<img src="./.github/documentation/self-driving-car-demo.gif" alt="Car driving thru checkpoints" width="100%"/>
 
 ## Clarifications
 
