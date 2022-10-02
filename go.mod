@@ -1,11 +1,14 @@
 module github.com/xXNurioXx/go-gta-sa-driver
 
-go 1.17
+go 1.18
+
+require github.com/go-vgo/robotgo v0.100.10
 
 require (
+	github.com/0xrawsec/golang-utils v1.3.0 // indirect
+	github.com/0xrawsec/golang-win32 v1.0.14 // indirect
 	github.com/StackExchange/wmi v1.2.1 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
-	github.com/go-vgo/robotgo v0.100.10 // indirect
 	github.com/lxn/win v0.0.0-20210218163916-a377121e959e // indirect
 	github.com/otiai10/gosseract v2.2.1+incompatible // indirect
 	github.com/robotn/gohook v0.31.3 // indirect
@@ -18,6 +21,8 @@ require (
 	github.com/vcaesar/imgo v0.30.0 // indirect
 	github.com/vcaesar/keycode v0.10.0 // indirect
 	github.com/vcaesar/tt v0.20.0 // indirect
+	github.com/xXNurioXx/go-gta-sa-memory-reader v0.0.0-20221002010203-e2945fe785d5 // indirect
+	github.com/xXNurioXx/go-memory-accessor v0.0.0-20220716022914-df829cc5ed56 // indirect
 	golang.org/x/image v0.0.0-20211028202545-6944b10bf410 // indirect
-	golang.org/x/sys v0.0.0-20211123173158-ef496fb156ab // indirect
+	golang.org/x/sys v0.0.0-20220708085239-5a0f0661e09d // indirect
 )
